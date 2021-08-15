@@ -13,9 +13,9 @@ public class Ex01 {
 
         System.out.println("Para poder entrar no jogo, por favor, nos informe a sua idade.");
         System.out.print(">> Idade: ");
-        int userIdade = input.nextInt();
+        int Idade = input.nextInt();
 
-        if (userIdade >= 18) {
+        if (Idade >= 18) {
             System.out.println("========================\nAcesso autorizado! \nDivirta-se!");
         } else {
             System.out.println("Acesso negado! \nDesculpe! Você não possui a idade minima.");
