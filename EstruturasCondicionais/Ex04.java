@@ -5,10 +5,8 @@ public class Ex04 {
     public static void main(String[] args) {
         
     /*
-    Construa um algoritmo de PORTUGOL para determinar se o indivíduo esta com um peso 
-    favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é 
-    definida como sendo a relação entre o peso (PESO) e o quadrado da Altura (ALTURA) do 
-    indivíduo. Ou seja, IMC = PESO/ALTURA^2.
+    Construa um algoritmo para determinar se o indivíduo esta com um peso 
+    favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é definida como sendo a relação entre o peso (PESO) e o quadrado da Altura (ALTURA) do indivíduo. Ou seja, IMC = PESO/ALTURA^2.
 
     TABELA:
 
@@ -27,10 +25,10 @@ public class Ex04 {
         
         System.out.print("Informe seu peso atual: ");
         peso = input.nextInt();
-        System.out.print("Informe sua altura atual (Ex: 1,74 - Utilize a vírgula!): ");
+        System.out.print("Informe sua altura atual (Ex: 1,74): ");
         altura = input.nextFloat();
         
-        float imc = peso/(altura*altura);
+        float imc = peso/(altura*altura); //realiza o calculo do IMC
 
         if (imc <= 20) {
             System.out.println("IMC: "+imc+" - ABAIXO DO PESO!");
