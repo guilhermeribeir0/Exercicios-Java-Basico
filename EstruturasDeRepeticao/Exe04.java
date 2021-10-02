@@ -24,5 +24,4 @@ public class Exe04 {
         System.out.println("---------------------- \nSoma total dos numeros informados é: "+soma);
         
     }
-    
 }
