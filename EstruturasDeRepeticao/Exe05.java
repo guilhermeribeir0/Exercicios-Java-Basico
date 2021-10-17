@@ -17,7 +17,7 @@ public class Exe05 {
             System.out.print("\nInforme uma idade: ");
             idade = input.nextInt();
 
-            soma = soma + idade;
+            soma += idade;
         }
 
         System.out.println("--------------------------");

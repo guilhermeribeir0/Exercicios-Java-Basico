@@ -18,7 +18,7 @@ public class Exe04 {
             System.out.print("Informe um numero: ");
         valor = input.nextInt();
 
-        soma = soma + valor;
+        soma += valor;
         }
 
         System.out.println("---------------------- \nSoma total dos numeros informados é: "+soma);
