@@ -18,9 +18,7 @@ public class Exe08 {
         System.out.print("Digite um numero: ");
         valor = input.nextInt();
 
-            if (valor >= 0) {
-                soma += valor;
-            }
+        soma += valor;
 
         } while (valor >= 0);
 
