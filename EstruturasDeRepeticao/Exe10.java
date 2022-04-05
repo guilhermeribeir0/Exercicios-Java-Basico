@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Exe10 {
@@ -31,5 +32,4 @@ public class Exe10 {
     }
 
 }
-
 
